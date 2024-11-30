@@ -17,6 +17,6 @@ torch_model = Linear_(in_features, out_features, bias=True)
 onnx_program = torch.onnx.dynamo_export(torch_model, torch_input)
 onnx_program.save("linear.onnx")
 
-torch_model = Linear_(in_features, out_features, bias=True)
+torch_model = LinearWithConv2d(in_features, out_features, bias=True)
 onnx_program = torch.onnx.dynamo_export(torch_model, torch_input)
 onnx_program.save("linear_conv.onnx")
