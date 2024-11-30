@@ -1,0 +1,7 @@
+onnx
+onnxscript
+numpy==2.0.0
+torch
+torchvision
+pytest
+random
