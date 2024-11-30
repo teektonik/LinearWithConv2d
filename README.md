@@ -17,3 +17,10 @@
     python3 convert_to_onnx.py
  ```
 после выполнения данного скрипта, появятся два файла `linear_conv.onnx` и `linear.onnx`. Открыть и сравнить их можно на сайте [Netron](https://netron.app/).
+* Linear_
+  
+![Image alt](https://github.com/teektonik/LinearWithConv2d/raw/main/images/fc.jpeg)
+
+* LinearWithConv2d
+
+![Image alt](https://github.com/teektonik/LinearWithConv2d/raw/main/images/fc_conv.jpeg)
